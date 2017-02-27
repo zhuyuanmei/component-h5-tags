@@ -1,0 +1,558 @@
+<!doctype html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta content="yes" name="apple-mobile-web-app-capable"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta content="yes" name="apple-touch-fullscreen"/>
+    <meta content="telephone=no" name="format-detection"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <title>h5 tags demos</title>
+    <style>
+        *{margin:0;padding:0;}
+        html{width:100%;font:normal 100% Helvetica, Arial, sans-serif;font-family:'微软雅黑';font-size:10px;}
+        html,body,div,ul, li,dt,dd,dl{list-style:none;-webkit-tap-highlight-color:rgba(0,0,0,0);}
+        a{text-decoration:none;-webkit-tap-highlight-color:rgba(0,0,0,0);color:#000;}
+        body{background-color:#fff;}
+        header{position:fixed;top:0;left:0;width:100%;background:#EDEDED;z-index:10;}
+        footer{position:fixed;bottom:0;left:0;width:100%;height:30px;line-height:30px;background:#fff;border-top:1px solid #E9E9E9;background:#EDEDED;z-index:10;}
+        li{padding:15px 0;border-bottom:1px solid #eee;}
+        li:first-child{padding-top:50px;}
+        li:last-child{padding-bottom:50px;}
+        li div{margin-bottom:5px;color:#F33E01;font-size:14px;font-weight:bold;}
+        li img{width:100%;}
+        ol li{padding:0;border-bottom:none;}
+        ol li:first-child{padding-top:0;}
+    </style>
+</head>
+<body>
+    <ul>
+        <li>
+            <div>video示例</div>
+            <video controls="controls">
+                <source src="/video/vedio_5.mp4"/>
+                Your browser does not support the video tag.
+            </video>
+        </li>
+        <li>
+            <div>address示例</div>
+            <address>
+                西湖区
+                杭州市
+                浙江省
+            </address>
+        </li>
+        <li>
+            <div>area示例</div>
+            <img src="http://htmlreference.io/images/world-continents.png" width="320" height="160" orgwidth="320" orgheight="160" usemap="#world-continents">
+            <map name="world-continents">
+                <area title="北美" href="###" shape="poly" coords="48,89,67,69,77,49,140,0,68,0,6,10,4,31,16,69">
+                <area title="南美" href="###" shape="poly" coords="48,88,61,74,119,99,95,160,66,159">
+                <area title="欧洲" href="###" shape="poly" coords="124,49,145,46,158,50,187,43,198,6,146,1,115,21">
+                <area title="非洲" href="###" shape="poly" coords="121,53,140,47,169,51,186,77,196,80,188,137,156,136,138,97,118,86">
+                <area title="亚洲" href="###" shape="poly" coords="166,50,184,77,201,74,215,91,258,108,263,87,283,74,297,8,192,3,191,29,187,46,170,42">
+                <area title="澳洲" href="###" shape="poly" coords="257,107,263,85,314,89,316,137,294,151,249,132,248,114">
+            </map>
+        </li>
+        <li>
+            <div>article和section示例</div>
+            <article>
+                <header>
+                    <h1>Header for Tag</h1>
+                    <nav>
+                        <a>Home</a>
+                        <a>About</a>
+                        <a>Contact</a>
+                    </nav>
+                </header>
+                <section>
+                    <p>http://htmlreference.io/element/article/</p>
+                </section>
+                <footer>
+                    <h1>Footer for Tag</h1>
+                </footer>
+            </article>
+        </li>
+        <li>
+            <div>main和aside示例</div>
+            <main>
+                <h1>My blog post</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec viverra nec nulla vitae mollis.</p>
+                <p>etc.</p>
+            </main>
+            <aside>
+                <h3>About the author</h3>
+                <p>Frontend Designer from Bordeaux, currently working for Improbable in sunny London.</p>
+            </aside>
+        </li>
+        <li>
+            <div>audio示例</div>
+            <audio src="http://htmlreference.io/assets/Hal.mp3" controls loop></audio>
+        </li>
+        <li>
+            <div>b示例</div>
+            Hello <b>World</b>
+        </li>
+        <li>
+            <div>base示例</div>
+            <base href="http://htmlreference.io" target="_blank">
+            <a href="/element/base">The HTML base element</a>
+        </li>
+        <li>
+            <div>bdi示例</div>
+            The word <bdi>مرحبا</bdi> means "Hello" in Arabic
+        </li>
+        <li>
+            <div>bdo示例</div>
+            The word <bdo dir="rtl">Hello</bdo> is "Hello" spelled backwards.
+        </li>
+        <li>
+            <div>blockquote示例</div>
+            <blockquote cite="https://en.wikiquote.org/wiki/Marie_Curie">
+                Be less curious about people and more curious about ideas.
+            </blockquote>
+        </li>
+        <li>
+            <div>caption示例和col示例</div>
+            <table>
+                <caption>the title</caption>
+                <colgroup>
+                    <col style="background-color:hotpink;">
+                    <col span="2" style="background-color:springgreen;">
+                </colgroup>
+                <tr>
+                    <td>111</td>
+                    <td>Rhythm Guitar</td>
+                    <td>Rhythm Guitar2</td>
+                <tr>
+                    <td>222</td>
+                    <td>Lead Guitar</td>
+                    <td>Lead Guitar2</td>
+                </tr>
+            </table>
+        </li>
+        <li>
+            <div>cite示例</div>
+            If you want to learn HTML and CSS, go read <cite>MarkSheet.io</cite>!
+        </li>
+        <li>
+            <div>code示例</div>
+            Type <code>npm install</code> in your terminal to install a project's dependencies.
+        </li>
+        <li>
+            <div>data示例</div>
+            <data value="899">Small laptop</data>
+        </li>
+        <li>
+            <div>dataList示例</div>
+            <label>South American countries</label><br>
+            <input id="J_Input" list="countries" placeholder="Type a country">
+            <datalist id="countries">
+                <option value="Argentina">
+                <option value="Bolivia">
+                <option value="Brazil">
+                <option value="Chile">
+                <option value="Colombia">
+                <option value="Ecuador">
+                <option value="Guyana">
+                <option value="Paraguay">
+                <option value="Peru">
+                <option value="Suriname">
+                <option value="Uruguay">
+                <option value="Venezuela">
+            </datalist>
+        </li>
+        <li>
+            <div>dd示例</div>
+            <dl>
+                <dt>Web</dt>
+                <dd>The part of the Internet that contains websites and web pages</dd>
+                <dd>A markup language for creating web pages</dd>
+                <dt>CSS</dt>
+                <dd>A technology to make HTML look better</dd>
+            </dl>
+        </li>
+        <li>
+            <div>del示例</div>
+            To write abbreviations, use the <del cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/acronym" datettime="2017-02-14T12:00:00.001-04:00">acronym</del> <ins>abbr</ins> HTML element.
+        </li>
+        <li>
+            <div>details和summary示例</div>
+            <details>  <!--  属性 open="true" -->
+                <summary>Read more</summary>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec viverra nec nulla vitae mollis.</p>
+            </details>
+        </li>
+        <li>
+            <div>dfn示例</div>
+            The <dfn>World Wide Web</dfn> is the part of the Internet that uses the HTTP protocol.
+        </li>
+        <li>
+            <div>dialog示例</div>
+            <dialog>
+                This is a dialog box!
+            </dialog>
+        </li>
+        <li>
+            <div>em示例</div>
+            HTML should only be used to write <em>content</em>, and keep CSS for <em>styling</em> the web page.
+        </li>
+        <li>
+            <div>embed示例</div>
+            <!--<embed src="https://www.youtube.com/embed/kmk43_2dtn0" width="320" height="100">-->
+        </li>
+        <li>
+            <div>fieldset跟legend示例</div>
+            <form action="/subscribe" method="post">
+                <fieldset>  <!--  属性 disabled -->
+                    <legend>Subscribe to the Newsletter</legend>
+                    <input type="email" name="email">
+                    <button>Ok</button>
+                </fieldset>
+            </form>
+        </li>
+        <li>
+            <div>figure跟figcaption示例</div>
+            <figure>
+                <img src="/images/html-reference-logo.png" alt="HTML Reference logo">
+                <figcaption>The HTML Reference logo</figcaption>
+            </figure>
+        </li>
+        <li>
+            <div>form示例</div>
+            <form action="/signup" method="post">
+                <p>
+                    <label>Title</label><br>
+                </p>
+                <p>
+                    <label>
+                        <input type="radio" name="title" value="mr">
+                        Mr
+                    </label>
+                    <label>
+                        <input type="radio" name="title" value="mrs">
+                        Mrs
+                    </label>
+                    <label>
+                        <input type="radio" name="title" value="miss">
+                        Miss
+                    </label>
+                </p>
+                <p>
+                    <label>First name</label><br>
+                    <input type="text" name="first_name" autocapitalize="off">
+                </p>
+                <p>
+                    <label>Last name</label><br>
+                    <input type="text" name="last_name">
+                </p>
+                <p>
+                    <label>Email</label><br>
+                    <input type="email" name="email" required>
+                </p>
+                <p>
+                    <label>Phone number</label><br>
+                    <input type="tel" name="phone" required>
+                </p>
+                <p>
+                    <label>Password</label><br>
+                    <input type="password" name="password">
+                </p>
+                <p>
+                    <label>Country</label><br>
+                    <select name="country" required>            <!-- required:只针对默认值为空的情况有校验 -->
+                        <option value="China">China</option>
+                        <option value="India">India</option>
+                        <option value="United States">United States</option>
+                        <option value="Indonesia">Indonesia</option>
+                        <option value="Brazil">Brazil</option>
+                    </select>
+                </p>
+                <p>
+                   <label>
+                       <input type="checkbox" value="terms">
+                       I agree to the <a href="/terms">terms and conditions</a>
+                   </label>
+                </p>
+                <p>
+                    <textarea name="message" minlength="2" maxlength="6000" placeholder="输入message" cols="20" rows="3" required></textarea>
+                </p>
+                <p>
+                    <button>Sign up</button>
+                    <button type="reset">Reset form</button>
+                </p>
+            </form>
+        </li>
+        <li>
+            <div>hgroup示例</div>
+            <hgroup>
+                <h1>HTML Reference</h1>
+                <h2>A free guide to all HTML elements and attributes.</h2>
+            </hgroup>
+        </li>
+        <li>
+            <div>hr示例</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec viverra nec nulla vitae mollis.</p>
+            <hr>
+            <h2>Next section</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec viverra nec nulla vitae mollis.</p>
+        </li>
+        <li>
+            <div>i示例</div>
+            Hello <i>World</i>
+        </li>
+        <li>
+            <div>iframe示例</div>
+            <!--<iframe src="http://cssreference.io" height="100">-->
+                <!--Fallback text for non-supported browsers-->
+            <!--</iframe>-->
+        </li>
+        <li>
+            <div>img示例</div>  <!--  img需要去掉width:100%  -->
+            <img src="/images/sunset-360.jpg" alt="Picture of a Ha Long Bay sunset" srcset="/images/sunset-360.jpg 360w,/images/sunset-720.jpg 720w,/images/sunset-1440.jpg 1440w" sizes="(min-width: 800px) 720px, 360px">
+        </li>
+        <li>
+            <div>kbd示例</div>
+            To save, press <kbd>Ctrl + S</kbd>.
+        </li>
+        <li>
+            <div>mark示例</div>
+            We use HTML5 to write <mark>content</mark> on the Web.
+        </li>
+        <li>
+            <div>ol示例</div>
+            <ol>
+                <li>Step one</li>
+                <li>Step two</li>
+                <li>????</li>
+                <li>PROFIT!!!</li>
+            </ol>
+        </li>
+        <li>
+            <div>optgroup示例</div>                     <!-- 比较适合2级地址组件 -->
+            <select>
+                <optgroup label="South America">
+                    <option>Uruguay</option>
+                    <option>Brazil</option>
+                    <option>Argentina</option>
+                </optgroup>
+                <optgroup label="Europe" disabled>  <!-- disabled属性不适应IOS移动端 -->
+                    <option>Italy</option>
+                    <option>Germany</option>
+                    <option>England</option>
+                    <option>France</option>
+                    <option>Spain</option>
+                </optgroup>
+            </select>
+        </li>
+        <li>
+            <div>option示例</div>
+            <select id="J_Select" name="country">
+                <option value="Argentina" label="A">Argentina</option>
+                <option value="Bolivia" label="B" disabled>Bolivia</option>   <!-- disabled属性不能跟selected属性共存 -->
+                <option value="Chile" label="C">Chile</option>
+            </select>
+        </li>
+        <li>
+            <div>output示例</div>
+            <form oninput="sum.value = (parseFloat(a.value) + parseFloat(b.value)).toFixed(2)">
+                <input type="number" name="a" value="4" style="width:60px;height:25px;">
+                +
+                <input type="number" name="b" value="7" style="width:60px;height:25px;">
+                =
+                <output name="sum">11</output>
+            </form>
+        </li>
+        <li>
+            <div>pre示例</div>
+            <pre>&lt;!DOCTYPE html&gt;
+            &lt;html&gt;
+              &lt;head&gt;
+                &lt;title&gt;Hello World&lt;/title&gt;
+              &lt;/head&gt;
+              &lt;body&gt;
+                &lt;p&gt;Lorem ipsum dolor.&lt;/p&gt;
+              &lt;/body&gt;
+            &lt;/html&gt;</pre>
+        </li>
+        <li>
+            <div>progress示例</div>
+            <progress value="0.7">Progress</progress><br>                   <!-- value必填，支持百分比 -->
+            <progress value="80" max="100">Alex</progress>
+        </li>
+        <li>
+            <div>q示例</div>
+            He looks around and says <q>I'll be back</q>.
+        </li>
+        <li>
+            <div>rp和rt示例</div>
+            <ruby>
+                漢 <rp>(</rp><rt>Kan</rt><rp>)</rp>
+                字 <rp>(</rp><rt>ji</rt><rp>)</rp>
+            </ruby>
+        </li>
+        <li>
+            <div>ruby和rtc示例</div>
+            <ruby>
+                旧 <rp>(</rp><rt>Jiù</rt><rp>)</rp>
+                金 <rp>(</rp><rt>jīn</rt><rp>)</rp>
+                山 <rp>(</rp><rt>shān</rt><rp>)</rp>
+                <rtc>San Francisco</rtc>
+            </ruby>
+        </li>
+        <li>
+            <div>s示例</div>
+            Alex is <s>37</s> 38 years old.
+        </li>
+        <li>
+            <div>samp示例</div>
+            I entered <code>git push</code> and the terminal printed out <samp>Everything up-to-date</samp>.
+        </li>
+        <li>
+            <div>select示例</div>
+            <select name="country">                       <!-- size:显示size长度可见的下拉框,IOS不适应;慎用multiple;disabled:不可选，但带值;required:必填 -->
+                <option value="Argentina">Argentina</option>
+                <option value="Bolivia">Bolivia</option>
+                <option value="Brazil">Brazil</option>
+                <option value="Chile">Chile</option>
+                <option value="Colombia">Colombia</option>
+                <option value="Ecuador">Ecuador</option>
+                <option value="Guyana">Guyana</option>
+                <option value="Paraguay">Paraguay</option>
+                <option value="Peru">Peru</option>
+                <option value="Suriname">Suriname</option>
+                <option value="Uruguay">Uruguay</option>
+                <option value="Venezuela">Venezuela</option>
+            </select>
+        </li>
+        <li>
+            <div>small示例</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec viverra nec nulla vitae mollis.</p>
+            <small>Posted on <time datetime="2017-04-29T19:00">Apr 29</time> in <a href="/category/code">Code</a></small>
+        </li>
+        <li>
+            <div>strong示例</div>
+            HTML should only be used to write <strong>content</strong>, and keep CSS for <strong>styling</strong> the web page.
+        </li>
+        <li>
+            <div>sub示例</div>
+            The formula of carbon dioxide is CO<sub>2</sub>.
+        </li>
+        <li>
+            <div>sup示例</div>
+            The "power of two" is 2<sup>n</sup> where n is an integer.
+        </li>
+        <li>
+            <div>table和tbody示例</div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Instrument</th>
+                    </tr>
+                </thead>
+                <!--<tfoot>-->
+                    <!--<tr>-->
+                        <!--<th>Name</th>-->
+                        <!--<th>Instrument</th>-->
+                    <!--</tr>-->
+                <!--</tfoot>-->
+                <tbody>
+                    <tr>
+                        <td>John Lennon</td>
+                        <td>Rhythm Guitar</td>
+                    </tr>
+                    <tr>
+                        <td>Paul McCartney</td>
+                        <td>Bass</td>
+                    </tr>
+                    <tr>
+                        <td>George Harrison</td>
+                        <td>Lead Guitar</td>
+                    </tr>
+                    <tr>
+                        <td>Ringo Starr</td>
+                        <td>Drums</td>
+                    </tr>
+                </tbody>
+            </table>
+        </li>
+        <li>
+            <div>td示例</div>
+            <table>
+                <thead>
+                <tr>
+                    <th colspan="4">World Cup winners</th>
+                </tr>
+                <tr>
+                    <td colspan="2">Location</td>
+                    <td colspan="2">Score</td>
+                </tr>
+                <tr>
+                    <td>Continent</td>
+                    <td>Country</td>
+                    <td>First</td>
+                    <td>Total</td>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td rowspan="3">South America</td>
+                    <td>Uruguay</td>
+                    <td>1930</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>Brazil</td>
+                    <td>1958</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Argentina</td>
+                    <td>1978</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td rowspan="5">Europe</td>
+                    <td>Italy</td>
+                    <td>1934</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>Germany</td>
+                    <td>1954</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>England</td>
+                    <td>1966</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>France</td>
+                    <td>1998</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>Spain</td>
+                    <td>2010</td>
+                    <td>1</td>
+                </tr>
+                </tbody>
+            </table>
+        </li>
+        <li>
+            <div>textarea示例</div>
+            <textarea name="message" minlength="2" maxlength="6000" placeholder="输入message" cols="20" rows="3"></textarea>   <!-- minlength没什么用;maxlength:计算长度不区分中英文;cols:定义列数;rows:定义显示的行数;disabled:输入失效;autofocus:自动聚焦;readonly:只读;spellcheck:拼音检查 -->
+        </li>
+        <li>
+            <div>u示例</div>
+            Hello <u>World</u>
+        </li>
+        <li>
+            <div>var示例</div>
+            The value of <var>x</var> is 12.
+        </li>
+    </ul>
+</body>
+</html>
